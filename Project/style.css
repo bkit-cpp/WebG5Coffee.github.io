@@ -452,7 +452,7 @@ input:checked ~ .nav-mobile {
     background-position: bold;
 }
 .menu .large-heading{
-    color:#914444;
+    color:whitesmoke;
 }
 
 .menu .menu-content {
@@ -475,7 +475,7 @@ input:checked ~ .nav-mobile {
     text-decoration: none;
     padding: 14px 20px;
     border-radius: 30px;
-    color: rgb(165, 54, 54);
+    color: white;
     border: 1px dashed rgba(230, 121, 13, 0.2);
     font-size: 15px;
 }
@@ -521,7 +521,7 @@ input:checked ~ .nav-mobile {
 }
 
 .menu .menu-group__title {
-    color:#914444;
+    color:white;
     font-size: 21px;
     padding-right: 10px;
     font-weight: 400;
@@ -545,6 +545,27 @@ input:checked ~ .nav-mobile {
     
 }
 
+.menu-main .btn-cart{
+    background-color: #d17839;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'BenchNine', Arial, sans-serif;
+    font-size: 10px;
+    font-size: 22px;
+    line-height: 1em;
+    margin: 15px 40px;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+    text-transform:capitalize;
+    font-weight: 700px;
+}
+
+.menu-main .btn-cart:hover{
+    background-color: #c47135;
+}
 .menu .menu-main__desc {
     text-overflow: ellipsis;
     overflow: hidden;
@@ -799,12 +820,12 @@ input:checked ~ .nav-mobile {
     border-radius: 30px;
     outline: none;
     background-color: rgba(255,255,255,0.122);
-    color: var(--white);
+    color: white;
     font-size: 15px;
 }
 
 .form .form-input::placeholder {
-    color: var(--white);
+    color: white;
     font-size: 15px;
 }
 
