@@ -71,6 +71,10 @@
       window.location.assign('dangnhap.html');
     }
   }
+  function Test3()
+  {
+    alert("Đã thêm vào giỏ hàng");
+  }
   
   
   
